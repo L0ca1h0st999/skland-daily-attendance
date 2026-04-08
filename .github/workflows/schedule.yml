@@ -2,7 +2,8 @@ name: attendance
 
 on:
   schedule:
-    - cron: '15 16 * * *'
+    - cron: '59 0 * * *'
+      timezone: 'Asia/Shanghai'
   workflow_dispatch:
   workflow_call:
     secrets:
